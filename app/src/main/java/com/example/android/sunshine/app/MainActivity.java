@@ -15,6 +15,7 @@
  */
 package com.example.android.sunshine.app;
 
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
@@ -66,8 +67,23 @@ public class MainActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+      /*      FragmentTransaction ft = (FragmentTransaction)getFragmentManager().beginTransaction();
+            ft.add(R.id.container,new firstfragment);
+            ft.commit();
+
             return true;
+        }else {
+
+            FragmentTransaction ft = (FragmentTransaction)getFragmentManager().beginTransaction();
+            ft.add(R.id.container,new firstfragment);
+            ft.commit();
+            */
+
         }
+
+
+
 
         return super.onOptionsItemSelected(item);
     }

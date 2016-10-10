@@ -5,4 +5,11 @@
           android:title="@string/action_refresh"
           android:showAsAction="never"/>
 
+    <item android:id="@+id/firstfragment"
+        android:title="1stfragment"
+        android:showAsAction="never"/>
+    <item android:id="@+id/secoundfragment"
+        android:title="2ndfragment"
+        android:showAsAction="never"/>
+
 </menu>
